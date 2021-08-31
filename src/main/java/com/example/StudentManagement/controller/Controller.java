@@ -19,6 +19,11 @@ public class Controller {
         return "Hello test";
     }
 
+    @RequestMapping("/newfunc")
+    public String newfunc() {
+        return "Hello New Function";
+    }
+
 
     @RequestMapping("/listStudenxt")
     public List<Student> listAllStudent() {
